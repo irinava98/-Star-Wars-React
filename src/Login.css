@@ -27,7 +27,7 @@ button:disabled {
     margin: 8px 0px;
     background-color: #e8ece9;
     color: #70a559;
-    cursor: default;
+    cursor: not-allowed;
 }
 button {
     background-color: #558d3d;
