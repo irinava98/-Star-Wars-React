@@ -1,0 +1,41 @@
+body {
+    background-color: #defdf1;
+}
+form {
+    border: 2px #427d23 Solid;
+    background-color: #9eeccd;
+    margin-left: 430px;
+    margin-right: 430px;
+    padding: 20px 20px;
+
+    margin-top: 80px;
+    text-align: center;
+}
+input {
+    font-size: 20px;
+    border: 2.5px #c3cdc0 Solid;
+    padding: 9px;
+    width: 400px;
+    margin: 8px 0px;
+}
+
+button:disabled {
+    border: 2.5px #b6bdb4 Solid;
+    font-size: 18px;
+    width: 420px;
+    height: 45px;
+    margin: 8px 0px;
+    background-color: #cfe7d9;
+    color: #70a559;
+}
+button {
+    background-color: #558d3d;
+    color: White;
+    font-size: 18px;
+    width: 420px;
+    height: 45px;
+    margin: 8px 0px;
+}
+input:hover {
+    border: 2.5px #79a06b Solid;
+}
