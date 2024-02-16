@@ -24,8 +24,9 @@ table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04aa6d;
-    color: white;
+    background-color: #41c5ba;
+    color: rgb(12, 1, 1);
+    font-weight: bold;
 }
 
 .ring
