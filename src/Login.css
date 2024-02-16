@@ -2,8 +2,8 @@ body {
     background-color: #defdf1;
 }
 form {
-    border: 2px #427d23 Solid;
     border-radius: 25px;
+    box-shadow: 0 0 5px 5px inset #61d1be;
     background-image: linear-gradient(to right, #9eeccd, rgb(119, 172, 216));
     margin-left: 430px;
     margin-right: 430px;
