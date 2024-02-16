@@ -3,7 +3,7 @@ import "./Login.css";
 import "./Table.css";
 import Login from "./Login";
 import Table from "./Table";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { useState } from "react";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
                     <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
                 }
             />
-            <Route path="table" element={loggedIn ? <Table /> : <Login />} />
+            <Route path="table" element={loggedIn ? <Table /> : <Navigate replace to={"/"} />} />
         </Routes>
     );
 }
