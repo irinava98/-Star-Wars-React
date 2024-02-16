@@ -27,6 +27,7 @@ button:disabled {
     margin: 8px 0px;
     background-color: #e8ece9;
     color: #70a559;
+    cursor: default;
 }
 button {
     background-color: #558d3d;
@@ -35,6 +36,7 @@ button {
     width: 420px;
     height: 45px;
     margin: 8px 0px;
+    cursor: pointer;
 }
 input:focus{
     border: 2.5px #79a06b Solid;
