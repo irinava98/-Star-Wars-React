@@ -17,7 +17,7 @@ input {
     border: 2px #c3cdc0 Solid;
     padding: 10px;
     min-width: 50px;
-    width:80%;
+    width: 80%;
     box-sizing: border-box;
     margin: 10px 0px;
 }
@@ -26,7 +26,7 @@ button:disabled {
     border: 2px #9ea19d Solid;
     font-size: 18px;
     min-width: 50px;
-    width:80%;
+    width: 80%;
     box-sizing: border-box;
     height: 45px;
     margin: 8px 0px;
@@ -38,20 +38,19 @@ button {
     background-color: #558d3d;
     color: White;
     font-size: 18px;
-    width:80%;
+    width: 80%;
     min-width: 50px;
     box-sizing: border-box;
     height: 45px;
     margin: 8px 0px;
     cursor: pointer;
 }
-input:focus{
+input:focus {
     border: 2.5px #79a06b Solid;
 }
 
-
 @media screen and (max-width: 700px) {
     form {
-      margin: 5%;
+        margin: 10%;
     }
-  }
+}
