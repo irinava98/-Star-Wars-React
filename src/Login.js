@@ -28,12 +28,14 @@ export default function Login({ setLoggedIn }) {
                     placeholder="username"
                     value={username}
                     onChange={changeUsernameHandler}
+                    required
                 />
                 <input
                     type="password"
                     placeholder="password"
                     value={password}
                     onChange={changePasswordHandler}
+                    required
                 />
                 <button
                     disabled={username.length === 0 || password.length === 0}
