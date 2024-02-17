@@ -38,7 +38,7 @@ export default function Table() {
                     <th>Skin color</th>
                 </tr>
                 {info.results.map((hero) => (
-                    <tr key={hero.homeworld}>
+                    <tr key={hero.url}>
                         <td>{hero.name}</td>
                         <td>{hero.mass}</td>
                         <td>{hero.height}</td>
