@@ -51,6 +51,12 @@ input:focus {
 
 @media screen and (max-width: 700px) {
     form {
-        margin: 10%;
+        margin: 10% 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    form {
+        margin: 20% 10%;
     }
 }

@@ -121,10 +121,16 @@ span:before {
 
 @media screen and (max-width: 800px) {
     table {
-        margin: 10%;
+        margin: 5% auto;
     }
 
     .error {
-        margin: 20% 40%;
+        margin: 20% 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .error {
+        margin: 40% 30%;
     }
 }
