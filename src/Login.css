@@ -7,6 +7,7 @@ form {
     background-image: linear-gradient(to right, #9eeccd, rgb(119, 172, 216));
     margin-left: 430px;
     margin-right: 430px;
+    min-width: 20%;
     padding: 50px 50px;
     margin-top: 120px;
     text-align: center;
@@ -15,14 +16,18 @@ input {
     font-size: 20px;
     border: 2px #c3cdc0 Solid;
     padding: 10px;
-    width: 400px;
+    min-width: 50px;
+    width:80%;
+    box-sizing: border-box;
     margin: 10px 0px;
 }
 
 button:disabled {
     border: 2px #9ea19d Solid;
     font-size: 18px;
-    width: 420px;
+    min-width: 50px;
+    width:80%;
+    box-sizing: border-box;
     height: 45px;
     margin: 8px 0px;
     background-color: #e8ece9;
@@ -33,7 +38,9 @@ button {
     background-color: #558d3d;
     color: White;
     font-size: 18px;
-    width: 420px;
+    width:80%;
+    min-width: 50px;
+    box-sizing: border-box;
     height: 45px;
     margin: 8px 0px;
     cursor: pointer;
@@ -41,3 +48,10 @@ button {
 input:focus{
     border: 2.5px #79a06b Solid;
 }
+
+
+@media screen and (max-width: 700px) {
+    form {
+      margin: 5%;
+    }
+  }
