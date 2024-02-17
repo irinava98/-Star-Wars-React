@@ -18,8 +18,12 @@ export default function Table() {
             });
     }, []);
 
-    
-    if (loading) return <div className="ring">Loading<span></span></div>;
+    if (loading)
+        return (
+            <div className="ring">
+                Loading<span></span>
+            </div>
+        );
 
     if (error) return <div className="error">Error: Data is not available</div>;
 

@@ -17,7 +17,10 @@ function App() {
                     <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
                 }
             />
-            <Route path="table" element={loggedIn ? <Table /> : <Navigate replace to={"/"} />} />
+            <Route
+                path="table"
+                element={loggedIn ? <Table /> : <Navigate replace to={"/"} />}
+            />
         </Routes>
     );
 }
