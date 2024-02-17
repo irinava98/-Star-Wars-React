@@ -1,6 +1,7 @@
 table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    min-width: 40%;
     width: 80%;
     box-sizing: border-box;
     margin-top: 130px;
