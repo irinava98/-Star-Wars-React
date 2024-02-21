@@ -30,6 +30,7 @@ export default function Table() {
     return (
         <>
             <table border={1}>
+                <thead>
                 <tr>
                     <th>Name</th>
                     <th>Mass</th>
@@ -37,6 +38,8 @@ export default function Table() {
                     <th>Hair color</th>
                     <th>Skin color</th>
                 </tr>
+                </thead>
+                <tbody>
                 {info.results.map((hero) => (
                     <tr key={hero.url}>
                         <td>{hero.name}</td>
@@ -46,6 +49,7 @@ export default function Table() {
                         <td>{hero.skin_color}</td>
                     </tr>
                 ))}
+                </tbody>
             </table>
         </>
     );
